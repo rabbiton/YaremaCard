@@ -15,7 +15,7 @@ struct InfoView: View {
     
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
-            .fill(Color.white)
+            .fill(Color.black)
             .frame(height: 50)
             .overlay(HStack {
                     Image(systemName: imageView)
